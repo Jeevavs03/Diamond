@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Cabinet Grotesk", sans-serif;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 68px;
+  letter-spacing: 0%;
+}
+.medium {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.regular {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.profile-card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.profile-card-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.upperCase {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lowerMedium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}

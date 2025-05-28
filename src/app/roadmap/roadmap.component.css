@@ -1,0 +1,105 @@
+* {
+  color: white;
+}
+.roadMap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #FFFFFFB2;
+  font-weight: 400;
+  /* font-size: 20px; */
+  line-height: 20px;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header h1 {
+  font-size: 52px;
+}
+.header-bottom-line {
+  margin-top: 50px;
+  height: 2px;
+  width: 100%;
+  background-color: grey;
+  position: relative;
+}
+.roadMap-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+  margin-left: 370px;
+  gap:150px;
+}
+.logo {
+  padding: 10px;
+  position: absolute;
+  top: 110px;
+  border-radius: 120px;
+}
+.vector-logo {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  justify-content: end;
+  border-radius: 120px;
+  background-color: #ffffff14;
+  padding: 10px;
+  z-index: 9999;
+}
+.vector-logo div {
+  border-radius: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 24px;
+}
+.vectorLogo-1 {
+  position: relative;
+}
+.vectorLogo-1 img {
+  background: transparent;
+  color: transparent;
+
+}
+.vectorLogo-2 img {
+  background: transparent;
+  color: transparent;
+
+}
+.vectorLogo-2 {
+  position: absolute;
+  right: 6px;
+  background: transparent;
+  color: transparent;
+}
+.content-header p:last-child {
+  font-size: 24px;
+}
+.content-body {
+  width: 280px;
+}
+.content {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.content-header p:first-child {
+  color: transparent;
+  background: linear-gradient( #986F25 , #FDE6BD,#EEC781, #A1772C);
+  background-clip: text;
+  letter-spacing: 0.05px;
+}
