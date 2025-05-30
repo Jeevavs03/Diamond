@@ -1,76 +1,88 @@
-*{
-    color: white;
+* {
+  color: white;
 }
-.event-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-    gap: 40px;
+.event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
 }
-.container-header{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container-header {
+  display: flex;
+  margin: 0px 166px;
 }
-.container-header-content{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center
+.container-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
 }
-.container-header-content p:first-child{
-    font-size: 52px;
-    margin-bottom: 20px;
-    font-weight: 600;
+.heading {
+  color: transparent;
+  background: linear-gradient(to right, #ffffff, #ffffff 60%);
+  background-clip: text;
 }
-.container-header-content p:nth-child(2),.container-header-content p:last-child{
-    color: #9F9F9F;
-    line-height: 22px;
+.about {
+  color: #8c8c8c;
 }
-.card-logo{
-    position: relative;
+.event-section {
+  display: flex;
+  gap: 34px;
 }
-.card{
-    width: 366px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.card-logo {
+  position: relative;
 }
 
-.button p{
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: linear-gradient(to right,#FFFFFF0A 60%,#FFFFFF1F,#FFFFFF12);
-    /* filter: blur(30px); */
-    padding: 5px 8px 5px 8px;
-    border: 1px solid gray;
-    border-radius: 7px;
-    text-align: center;
-    font-size: 13px;
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
 }
-.event-section{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+.image-container img {
+  border-radius: 14px;
 }
-.card-content{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.card-button p {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  background: linear-gradient(to right, #ffffff0a 70%, #ffffff1f, #ffffff12);
+  padding: 5px 8px 5px 8px;
+  backdrop-filter: blur(30px);
+  border-radius: 7px;
 }
-.card-content > p{
-    font-size: 20px;
+.event-button {
+  color: #f5f5f5;
 }
-.card-footer{
-    display: flex;
-    gap: 10px;
-    align-items: center;
+.event-time {
+  color: #b3b3b3;
 }
-.card-footer p{
-    font-size: 17px;
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.event-members {
+  color: #f5f5f5;
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.event-location {
+  color: #ffffffcc;
+}
+.card-footer img {
+  height: 20px;
+  width: 20px;
 }

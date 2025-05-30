@@ -2,6 +2,10 @@ import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { RoadmapComponent } from './roadmap/roadmap.component';
 import { EventComponent } from './event/event.component';
+import { MembershipComponent } from './membership/membership.component';
+import { ProsComponent } from './pros/pros.component';
+import { JournalComponent } from './journal/journal.component';
+import { DiamondComponent } from './diamond/diamond.component';
 
 export const routes: Routes = [
     {
@@ -17,5 +21,17 @@ export const routes: Routes = [
     },{
         path:'event',
         component:EventComponent,
+    },{
+        path:'membership',
+        component:MembershipComponent,
+    },{
+        path:'pros',
+        component:ProsComponent,
+    },{
+        path:'journal',
+        component:JournalComponent,
+    },{
+        path:'diamond',
+        component:DiamondComponent,
     }
 ];

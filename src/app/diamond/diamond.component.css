@@ -1,0 +1,166 @@
+* {
+  color: white;
+  background: transparent;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.regular {
+  color: #8c8c8c;
+}
+
+.logo {
+  color: transparent;
+  width: fit-content;
+  background: linear-gradient(#2e2d2c, #1b1b1b, transparent);
+  background-clip: text;
+}
+.phase-list {
+  color: #8c8c8c;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.header {
+  margin: 0px 166px;
+}
+.header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+}
+
+.header-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.header-footer {
+  display: flex;
+  gap: 10px;
+}
+.button {
+  padding: 12px 14px 12px 14px;
+  border-radius: 10px;
+}
+
+.view {
+  background: linear-gradient(to right, #e6c486, #f0d39f, #ba944f);
+  color: #000000;
+}
+.read {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #986f25, #fde6bd, #eec781, #a1772c);
+  background-clip: text;
+}
+
+.grid-cards {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  gap: 30px;
+}
+
+.community-rewards{
+  grid-column: 1/1;
+  grid-row: 1/1;
+}
+.staking-rewards{
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+.utility{
+
+}
+.membership-perk{
+
+}
+.token{
+
+}
+.access{
+
+}
+.price{
+
+}
+.community-rewards,
+.staking-rewards,
+.utility,
+.access {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 32px;
+  border-radius: 20px;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12);
+  backdrop-filter: blur(84px);
+}
+.access{
+    position: relative;
+    overflow: hidden;
+}
+.diamond{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    /* opacity: 12%; */
+}
+.price{
+    border-radius: 20px;
+    padding: 30px 20px 30px 20px ;
+    background: linear-gradient(#FFFFFF1F,#FFFFFF0A,#FFFFFF12);
+}
+.membership-perk {
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12);
+  backdrop-filter: blur(84px);
+}
+
+.community-reward-content,
+.staking-content,
+.access-content,
+.price-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.utility-content,
+.perk-content {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.token {
+  border-radius: 12px;
+  padding: 22px 32px 22px 32px;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12);
+}
+.token-content {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.underline {
+  text-decoration: underline;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+ul li {
+  display: flex;
+  gap: 10px;
+}

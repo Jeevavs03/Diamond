@@ -1,0 +1,91 @@
+* {
+  color: white;
+  background: transparent;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0px 166px;
+}
+
+.regular {
+  color: #8c8c8c;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.club-subtitle {
+  color: #ffffffcc;
+}
+.card-container {
+  background: linear-gradient(to bottom, #131315, #13131599);
+  position: relative;
+  overflow: hidden;
+  flex: 1;
+  border-radius: 14px;
+}
+
+.radial {
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  /* width: 100%; */
+}
+
+.shape {
+  position: absolute;
+  top: 0;
+  /* left: 0; */
+  right: 0;
+  /* width: 100%; */
+}
+.card-container > img {
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+.cards {
+  display: flex;
+  gap: 36px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 219px 40px 40px 40px;
+  position: relative;
+  z-index: 2;
+}
+.content-header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.content-footer {
+  width: fit-content;
+  border-bottom: 1px solid;
+  border-image: linear-gradient(to right, #ba8843, #e4cb95, #cca04c);
+  border-image-slice: 1;
+}
+.bottom-line {
+  display: flex;
+  gap: 6px;
+}
+.sale {
+  color: transparent;
+  background: linear-gradient(to right, #ba8843, #e4cb95, #cca04c);
+  background-clip: text;
+  text-align: start;
+}

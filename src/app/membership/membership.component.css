@@ -1,0 +1,210 @@
+* {
+  color: white;
+  background: transparent;
+}
+li img {
+  width: 16px;
+  height: 16px;
+}
+.sub-title {
+  color: transparent;
+  background: linear-gradient(to right, #ffffff, #ffffff 60%);
+  background-clip: text;
+}
+.regular {
+  color: #8c8c8c;
+}
+.blue-title {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #3f7fce, #bdd7fd, #81aeee, #0f76f5);
+  background-clip: text;
+}
+.red-title {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #d05050, #fdbdbd, #ee8181, #dc5757);
+  background-clip: text;
+}
+
+.green-title {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #319825, #bffdbd, #83ee81, #199325);
+  background-clip: text;
+}
+.gold-title {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #986f25, #fde6bd, #eec781, #a1772c);
+  background-clip: text;
+}
+.silver-title {
+  width: fit-content;
+  color: transparent;
+  background: linear-gradient(to right, #8f8f8f, #f0f0f0, #e5e5e5, #a9a9a9);
+  background-clip: text;
+}
+.membership-time {
+  color: #ffffffcc;
+}
+
+.membership-list-header {
+  color: #ffffff;
+}
+.membership-list {
+  color: #ffffffcc;
+}
+.membership-container {
+  display: flex;
+  flex-direction: column;
+  gap: 44px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0px 166px;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  flex: 1;
+  gap: 34px;
+}
+.row-bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 34px;
+}
+.card-red {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: linear-gradient(#ff2b2b1f, #ff2b2b0a, #ff2b2b12);
+}
+.card-blue {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: linear-gradient(#2b83ff1f, #2b8eff0a, #2b87ff12);
+}
+.card-green {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: linear-gradient(#5cff2b1f, #2bff3d0a, #75ff2b12);
+}
+.card-gold {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: linear-gradient(#111111, #150e01, #493310);
+}
+.card-silver {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: linear-gradient(#ffffff38, #14141414, #09090912);
+}
+
+.card-transparent {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 24px;
+  border-radius: 32px;
+  border-width: 1px;
+  padding: 30px;
+  background: transparent;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card-logo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-button {
+  color: #ffffffcc;
+  border-radius: 6px;
+  padding: 2px 6px 2px 6px;
+}
+
+.title-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.sale-button-red {
+  border-radius: 10px;
+  padding: 11px 14px 11px 14px;
+  background: linear-gradient(to right, #e68686, #e8aeae, #ba4f4f);
+}
+.sale-button {
+  border-radius: 10px;
+  padding: 11px 14px 11px 14px;
+}
+.red-button {
+  color: #121212;
+}
+
+.line {
+  height: 1px;
+  background-color: #ffffff29;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-content ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-content ul li {
+  display: flex;
+  gap: 8px;
+}
