@@ -1,0 +1,216 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  font-family: "Cabinet Grotesk", sans-serif;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 76px;
+  letter-spacing: 0%;
+}
+
+.sub-title {
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 68px;
+  letter-spacing: 0%;
+}
+.medium {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.regular {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.profile-card-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.profile-card-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.upperCase {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.lowerMedium {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.event-button {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  letter-spacing: 0%;
+}
+
+.event-time {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+.event-members {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+.event-location {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.phase {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+.phase-title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: -2%;
+}
+.phase-list {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+}
+
+.membership-button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.membership-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.membership-time {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.membership-price {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0%;
+  /* text-align: center; */
+}
+
+.membership-sale-button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.membership-list-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.membership-list {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.club-title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+}
+
+.club-subtitle {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+}
+
+.journal-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0%;
+}
+
+.journal-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 100px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.view-more {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}

@@ -1,0 +1,131 @@
+* {
+  color: white;
+  background: transparent;
+}
+.event-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 44px;
+  max-width: 1086px;
+  overflow: hidden;
+}
+.container-header {
+  display: flex;
+  margin: 0px 130px;
+}
+.container-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+.heading {
+  color: transparent;
+  background: linear-gradient(to right, #ffffff, #ffffff 60%);
+  background-clip: text;
+}
+.about {
+  color: #8c8c8c;
+}
+.event-section {
+  display: flex;
+  gap: 34px;
+}
+.card-logo {
+  position: relative;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  position: relative;
+}
+
+.card-logo img {
+  border-radius: 14px;
+  width: 339px;
+}
+.card-button {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(30px) !important;
+}
+.border-line,
+.gold-border {
+  background: linear-gradient(
+    to right,
+    #ffffff0a 70%,
+    #ffffff1f,
+    #ffffff12
+  ) !important;
+  padding: 5px 8px 5px 8px;
+  border-radius: 7px !important;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+.border-line::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 7px;
+  padding: 1.5px;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.gold-border::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 7px;
+  padding: 1.5px;
+  background: linear-gradient(#FFFFFF52,#FFFFFF1A,#FFFFFF29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.event-button {
+  color: #f5f5f5;
+}
+.event-time {
+  color: #b3b3b3;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.event-members {
+  color: #f5f5f5;
+}
+
+.card-footer {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.event-location {
+  color: #ffffffcc;
+}
+.card-footer img {
+  height: 20px;
+  width: 20px;
+}

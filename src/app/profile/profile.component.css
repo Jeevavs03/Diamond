@@ -1,0 +1,398 @@
+* {
+  color: white;
+  background-color: transparent;
+  font-style: Cabinet Grotesk Variable;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  position: relative;
+}
+.glow {
+  position: absolute;
+  left: 0;
+  height: 350%;
+  width: 100%;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 145px;
+  align-items: center;
+}
+.header-button {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.header-button div {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.margin-line {
+  height: 0.5px;
+  position: relative;
+  background: linear-gradient(to right, #000000, #ffffff, #000000);
+}
+.gold {
+  padding: 12px 14px;
+  border-radius: 10px !important;
+  color: transparent;
+  background: linear-gradient(to right, #986f25, #fde6bd, #eec781, #a1772c);
+  width: fit-content;
+  background-clip: text;
+  position: relative;
+}
+.gold::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#e6c486, #f0d39f, #ba944f);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.language {
+  padding: 12px 10px;
+  border-radius: 10px !important;
+  backdrop-filter: blur(84px) !important;
+  position: relative;
+}
+.language::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#ffffff52, #ffffff1a, #ffffff29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.logout {
+  color: #d05050;
+  padding: 12px 14px;
+  border-radius: 10px !important;
+  border: 1px solid #d05050;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  max-width: 1086px;
+}
+.profile-header {
+  display: flex;
+  justify-content: center;
+  margin: 0px 199px;
+}
+.profile-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  color: transparent;
+  background: linear-gradient(to right, #ffffff 60%, #ffffff99);
+  background-clip: text;
+}
+.regular {
+  color: #9f9f9f;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+.profile-cards {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.profile-card-section {
+  padding: 30px 20px 30px 20px;
+  border-radius: 20px !important;
+  gap: 12px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12) !important;
+  backdrop-filter: blur(84px) !important;
+  width: 100%;
+  position: relative;
+}
+.profile-card-section::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.32),
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.16)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  z-index: -1;
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.profile-card-section div img {
+  height: 24px;
+  width: 24px;
+}
+
+.profile-card-title {
+  color: #f5f5f5;
+}
+.profile-card-subtitle {
+  text-align: start;
+  color: #8c8c8c;
+}
+.profile-card-section div {
+  display: flex;
+  gap: 10px;
+}
+
+.profile-footer {
+  padding: 30px 24px 30px 24px;
+  border-radius: 20px !important;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  background: linear-gradient(#ffffff1f, #ffffff0a, #ffffff12) !important;
+  position: relative;
+}
+.profile-footer::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.32),
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.16)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+.profile-footer-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.profile-info-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.profile-info-title div {
+  padding: 10px;
+  border-radius: 8px;
+  backdrop-filter: blur(84px);
+  width: 44px;
+  height: 44px;
+}
+
+.profile-info-title div::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  padding: 2px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.32),
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.16)
+  );
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.profile-info-title div img {
+  height: 24px;
+  width: 24px;
+}
+.profile-footer .bg-image {
+  position: absolute;
+  bottom: -5px;
+  right: 0px;
+}
+.bg-image img {
+  opacity: 2%;
+}
+.profile-info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.profile-info-content .profile-info-content-card {
+  display: flex;
+  gap: 16px;
+}
+
+.medium {
+  text-align: start;
+}
+.profile-info-content-title {
+  width: 120px;
+}
+.titles {
+  color: #9f9f9f;
+}
+.subtitles {
+  color: #ebebeb;
+}
+.profile-social-button {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  justify-content: center;
+}
+.small-medium {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0%;
+  color: #ebebeb;
+}
+.social-button {
+  display: flex;
+  gap: 2px;
+  align-items: center;
+  padding: 2px 4px 2px 4px;
+  background-color: #2b2212 !important;
+  border-radius: 4px;
+  backdrop-filter: blur(84px) !important;
+}
+.social-button::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 4px;
+  padding: 0.5px;
+  background: linear-gradient(#c19c5ab2, #ffca2b1a, #ffc32b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.social-button div img {
+  height: 12px;
+  width: 12px;
+}
+
+.profile-footer-card-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background: linear-gradient(#ffbf2b1f, #ffc32b0a, #ffae2b12) !important;
+  padding: 30px 24px 30px 24px;
+  gap: 12px;
+  border-radius: 20px !important;
+  backdrop-filter: blur(84px) !important;
+  position: relative;
+}
+
+.profile-footer-card-right::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  padding: 2px;
+  background: linear-gradient(#c19c5ab2, #ffca2b1a, #ffc32b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+
+.card-right-body {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card-right-body-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.card-right-body-heading p {
+  color: transparent;
+  background: linear-gradient(to right, #986f25, #fde6bd, #eec781, #a1772c);
+  background-clip: text;
+}
+.card-right-body-heading div {
+  background-color: #2b2212;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px;
+}
+
+.lowerMedium {
+  color: #8c8c8c;
+}
+
+.card-right-body-heading div img {
+  height: 26px;
+  width: 26px;
+}
+
+.profile-footer-card-right button {
+  padding: 12px 14px 12px 14px;
+  border-radius: 10px;
+  background: linear-gradient(to right, #e6c486, #f0d39f, #ba944f);
+  outline: none;
+  border: none;
+  color: black;
+}
