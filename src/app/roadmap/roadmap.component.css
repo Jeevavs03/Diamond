@@ -25,6 +25,7 @@
   align-items: center;
   justify-content: center;
   gap: 44px;
+  max-width: 1086px;
 }
 
 li {

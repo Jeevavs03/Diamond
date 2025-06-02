@@ -59,6 +59,7 @@ li img {
   display: flex;
   flex-direction: column;
   gap: 44px;
+  max-width: 1086px;
 }
 .header {
   display: flex;
@@ -90,10 +91,22 @@ li img {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  border-radius: 32px;
-  border-width: 1px;
+  border-radius: 32px !important;
   padding: 30px;
-  background: linear-gradient(#ff2b2b1f, #ff2b2b0a, #ff2b2b12);
+  background: linear-gradient(#ff2b2b1f, #ff2b2b0a, #ff2b2b12) !important;
+  backdrop-filter: blur(84px) !important;
+}
+.card-red::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(#c15a5ab2, #ff2b2b1a, #ff2b2b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
 }
 .card-blue {
   display: flex;
@@ -103,37 +116,88 @@ li img {
   border-width: 1px;
   padding: 30px;
   background: linear-gradient(#2b83ff1f, #2b8eff0a, #2b87ff12);
+  position: relative;
+}
+.card-blue::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(#5a8fc1b2, #2b99ff1a, #2b7cff29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
 }
 .card-green {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  border-radius: 32px;
-  border-width: 1px;
+  border-radius: 32px !important;
   padding: 30px;
-  background: linear-gradient(#5cff2b1f, #2bff3d0a, #75ff2b12);
+  background: linear-gradient(#5cff2b1f, #2bff3d0a, #75ff2b12) !important;
+  position: relative;
+  backdrop-filter: blur(84px) !important;
+}
+.card-green::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(#5ac175b0, #2bff321a, #67ff2b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
 }
 .card-gold {
   display: flex;
   flex-direction: column;
   flex: 1;
   gap: 24px;
-  border-radius: 32px;
-  border-width: 1px;
+  border-radius: 32px !important;
   padding: 30px;
-  background: linear-gradient(#111111, #150e01, #493310);
+  background: linear-gradient(#111111, #150e01, #493310) !important;
+  backdrop-filter: blur(84px) !important;
+  position: relative;
+}
+.card-gold::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(#c19c5ab2, #ffca2b1a, #ffc32b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
 }
 .card-silver {
   display: flex;
   flex-direction: column;
   flex: 1;
   gap: 24px;
-  border-radius: 32px;
-  border-width: 1px;
+  border-radius: 32px !important;
   padding: 30px;
-  background: linear-gradient(#ffffff38, #14141414, #09090912);
+  background: linear-gradient(#ffffff38, #14141414, #09090912) !important;
+  backdrop-filter: blur(84px) !important;
+  position: relative;
 }
-
+.card-silver::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 32px;
+  padding: 2px;
+  background: linear-gradient(#FFFFFF52,#FFFFFF1A,#FFFFFF29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
 .card-transparent {
   display: flex;
   flex-direction: column;
@@ -164,10 +228,24 @@ li img {
 
 .membership-button {
   color: #ffffffcc;
-  border-radius: 6px;
-  padding: 2px 6px 2px 6px;
 }
-
+.red-membership-button p {
+  border-radius: 6px !important;
+  padding: 2px 6px !important;
+  position: relative;
+}
+.red-membership-button p::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  padding: 1.3px;
+  background: linear-gradient(#c15a5ab2, #ff2b2b1a, #ff2b2b29);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
 .title-content {
   display: flex;
   flex-direction: column;
@@ -182,6 +260,60 @@ li img {
 .sale-button {
   border-radius: 10px;
   padding: 11px 14px 11px 14px;
+}
+.blue-button,
+.green-button,
+.gold-button,
+.silver-button {
+  position: relative;
+}
+.blue-button::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#69ade4, #aec9e8, #32659f);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.green-button::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#5be156b2, #99e198, #449f32);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.gold-button::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#bda06c, #493104);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+}
+.silver-button::before {
+  content: " ";
+  position: absolute;
+  inset: 0;
+  border-radius: 10px;
+  padding: 1.3px;
+  background: linear-gradient(#656565, #b7b1b1, #333333);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  pointer-events: none;
 }
 .red-button {
   color: #121212;

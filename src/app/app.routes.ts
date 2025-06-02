@@ -6,6 +6,8 @@ import { MembershipComponent } from './membership/membership.component';
 import { ProsComponent } from './pros/pros.component';
 import { JournalComponent } from './journal/journal.component';
 import { DiamondComponent } from './diamond/diamond.component';
+import { ProfileComponent } from './profile/profile.component';
+import { FooterComponent } from './footer/footer.component';
 
 export const routes: Routes = [
     {
@@ -33,5 +35,11 @@ export const routes: Routes = [
     },{
         path:'diamond',
         component:DiamondComponent,
+    },{
+        path:'profile',
+        component:ProfileComponent,
+    },{
+        path:'footer',
+        component:FooterComponent,
     }
 ];
